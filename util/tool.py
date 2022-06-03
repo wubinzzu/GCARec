@@ -76,6 +76,19 @@ def csr_to_user_dict_bytime(time_matrix,train_matrix):
 
     return train_dict
 
+def csr_to_time_dict(time_matrix):
+    """convert a scipy.sparse.csr_matrix to a dict,
+    where the key is row number, and value is the
+    non-empty index in each row.
+    """
+    user_pos_times, time_dict = {}, {}
+    for useridx, value in enumerate(time_matrix):
+        if len(value.indices) > 0:
+            user_pos_times[useridx] = value.data.copy().tolist()
+    # for useridx, times in user_pos_times.items():
+    #     sorted_times = sorted(times, key=lambda x: x,reverse=True)
+    #     time_dict[useridx] = np.array(sorted_times, dtype=np.int32).tolist()
+    return user_pos_times
 
 def get_initializer(init_method, stddev):
         if init_method == 'tnormal':
