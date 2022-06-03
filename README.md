@@ -46,6 +46,7 @@ The list of available models in GCARec, along with their paper citations, are sh
 | LightGCN            | Xiangnan He, et al., LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation. SIGIR 2020.|
 
 | Sequential Recommender | Paper                                                                                                      |
+|---------------------|---------------------------------------------------------------------------------------------------------------|
 | FPMC            |S. Rendle, C. Freudenthaler, and L. Schmidt-Thieme, Factorizing personalized markov chains for next-basket recommendation, WWW, 2010.|
 | HGN            | C. Ma, P. Kang, and X. Liu, Hierarchical gating networks for sequential recommendation, KDD, 2019.|
 
