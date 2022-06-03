@@ -1,5 +1,5 @@
 # GCARec
-This is our Tensorflow implementation for our EAGCN 2022 paper and a part of baselines:
+This is our Tensorflow implementation for our GCARec 2022 paper and a part of baselines:
 
 >Bin Wu, Xiangnan He, Le Wu, Xue Zhang, Yangdong Ye. Graph Augmented Co-Attention Model for Socio-Sequential Recommendation, IEEE TRANSACTIONS ON SYSTEMS, Under Review
 
