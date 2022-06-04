@@ -19,7 +19,7 @@ If the compilation is successful, the evaluator of cpp implementation will be ca
 Otherwise, the evaluator of python implementation will be called.
 NOTE: The cpp implementation is much faster than python.**
 
-## Examples to run EAGCN:
+## Examples to run GCARec:
 run [main.py](./main.py) in IDE or with command line:
 ```
 python main.py
