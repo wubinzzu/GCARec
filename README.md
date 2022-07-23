@@ -1,7 +1,7 @@
 # GCARec
 This is our Tensorflow implementation for our GCARec 2022 paper and a part of baselines:
 
->Bin Wu, Xiangnan He, Le Wu, Xue Zhang, Yangdong Ye. Graph Augmented Co-Attention Model for Socio-Sequential Recommendation, IEEE TRANSACTIONS ON SYSTEMS, Under Review
+>Bin Wu, Xiangnan He, Le Wu, Xue Zhang, Yangdong Ye. Graph Augmented Co-Attention Model for Socio-Sequential Recommendation, IEEE Transactions on Systems, Man and Cybernetics: Systems, Under Review
 
 ## Environment Requirement
 The code has been tested running under Python 3.6.5. The required packages are as follows:
